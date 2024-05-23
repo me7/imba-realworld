@@ -7,6 +7,9 @@
 
 ## how do i
 - [ ] articles create read update delete, favorite list
+  - [x] get /articles
+
+
 - [ ] users create read update, follow
 - [ ] comments create read delete
 - [ ] 
