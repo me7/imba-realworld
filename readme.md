@@ -15,7 +15,18 @@
 
 ## TIL
 - swagger api page https://main--realworld-docs.netlify.app/docs/specs/frontend-specs/swagger
-- tag App < Shared when shared have header/isLog/isMine
-- util.imba have share def - api, parseJSON, formatDate, encode
-- can pre-define prop by create User and Comment class.
-- imba v1 repo build frontend in 640 LOC only `scc --count-as imba:c`
+- [tag App < Shared](https://github.com/cartonalexandre/imba-realworld-example-app/blob/7b9d82535334b7eb7fafe734c233514f7d7114c1/src/components/shared.imba#L1) when shared have header/isLog/isMine
+
+- [util.imba](https://github.com/cartonalexandre/imba-realworld-example-app/blob/7b9d82535334b7eb7fafe734c233514f7d7114c1/src/components/util.imba) have share def - api, parseJSON, formatDate, encode
+- can pre-define prop by create [User and Comment class](https://github.com/cartonalexandre/imba-realworld-example-app/blob/7b9d82535334b7eb7fafe734c233514f7d7114c1/src/components/register.imba#L7-L13)
+```imba
+	def register
+		let user = User.new();
+		user.username = @username
+		user.email = @email
+		user.password = @password
+		api("users", "post", user, @headers).then do |data|
+
+```
+- imba v1 repo build frontend in 640 LOC only `scc --count-as imba:py`
+- 
