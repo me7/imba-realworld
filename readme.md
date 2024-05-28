@@ -4,6 +4,8 @@
 - repo https://github.com/me7/imba-realworld
 - reference (imba v1) https://github.com/cartonalexandre/imba-realworld-example-app
 - result in https://imba-realworld.surge.sh/
+- dev in idx https://idx.google.com/imba-realworld-8972783 you can dev online with only browser. dont forget to edit dev.nix
+![](./assets/idx.webp)
 
 ## how do i
 - [ ] articles create read update delete, favorite list
